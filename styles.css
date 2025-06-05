@@ -1,0 +1,124 @@
+img{
+     border: 5px solid #8d5d5db8;
+}
+.orgs{
+     background-color: #ffaed5;
+     padding: 20px;
+     border-radius: 10px;
+     width: 350px;
+}
+.orgs img{
+    width: 100%; /* make images responsive to the .orgs width */
+    height: 225px;
+    margin: 0 auto;
+}
+.orgs-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+#studentorgs h2{
+    text-align: center;
+}
+.event{
+    background-color: #ffaa78;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+.event img{
+    width: 100%; /* make images responsive to the .event width */
+    height: 225px;
+    margin: 0 auto;
+}
+.events-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+#events h2{
+    text-align: center;
+}
+#news-story img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   /* or any width you prefer */
+    height: auto; /* maintain aspect ratio */
+}
+#news-story h2{
+    text-align: center;
+}
+#news-story img{
+    align-self: center;
+    width: 50%; /* make images responsive to the .news width */
+    height: 50%;
+    margin: 0 auto;
+}
+.news a{
+    color: #4b3131;
+    text-decoration: none;
+}
+.news a:hover{
+    color: #754e4e;
+    text-decoration: underline;
+}
+html{
+    font-size: 15px;;
+}
+header{
+    background-color: #f3b7b7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+nav{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f6cab0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for nav bar horizontal layout */
+    justify-content: space-evenly;
+}
+li > a{
+    text-decoration: none;
+    color: #4b3131;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+li > a:focus{
+    color: #754e4e;
+    text-decoration: underline;
+}
+h1{
+    font-family: "monaco", monospace;
+    font-size: 2.5rem;
+    color: #754e4e;
+
+}
+h2{
+    font-family: "monaco", monospace;
+    font-size: 2rem;
+    color: #8d5d5d;
+}
+h3{
+    font-family: "monaco", monospace;
+    font-size: 1.5rem;
+    color: #4b3131;
+}
+p{
+    font-family: "Source Code Pro", monospace;
+    font-size: 1rem;
+    color: #4b3131;
+}

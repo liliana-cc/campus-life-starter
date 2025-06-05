@@ -1,9 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Campus Life</title>
 </head>
 <body>
-    
+    <header id="banner">
+        <h1>Student Life</h1>
+        <p>Random stuff describing student life.</p>
+    </header>
+    <nav id="navigation">
+        <ul>
+            <li><a href="#studentorgs">Student Orgs</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#news-story">News</a></li>
+        </ul>
+    </nav>
+    <section id="studentorgs">
+        <h2>Student Organizations</h2>
+        <div class="orgs-container">
+            <section class="orgs" id="colorstack">
+                <img src="https://cdn.prod.website-files.com/620e0adbc73adbdcc83295ff/652599e8bc08b264e58ec248_christina-wocintechchat-com-eF7HN40WbAQ-unsplash-p-2600.jpg" alt="ColorStack Image">
+                <h3>ColorStack</h3>
+                <p>Colorstack is an organization highlighting the disparity of African-American, Latino/Hispanic, and Indigenous graduates in Computer Science. They aim to increase these numbers by providing additional aid in the form of professional development opportunities and connections.</p>
+            </section>
+            <section class="orgs" id="masa">
+                <img src="assets/masapic.jpg" alt="Masa Image">
+                <h3>Mexican American Student Association</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, debitis rerum! Tenetur rerum, molestias ad inventore repudiandae officiis soluta exercitationem, dolorum quos alias, architecto deserunt earum explicabo sunt magni? Reiciendis.</p>
+            </section>
+            <section class="orgs" id="kitten club">
+                <img src="assets/kittens.jpg" alt="Masa Image">
+                <h3>Kitten Appreciation Club</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, debitis rerum! Tenetur rerum, molestias ad inventore repudiandae officiis soluta exercitationem, dolorum quos alias, architecto deserunt earum explicabo sunt magni? Reiciendis.</p>
+            </section>
+        </div>
+    </section>
+    <section id="events">
+        <h2>Events</h2>
+        <div class="events-container">
+            <section class="event" id="dia de los muertos">
+                <img src="assets/sugarskull.jpg" alt="sugar skull">
+                <h3><a href="https://www.latam.ufl.edu/outreach/teacher-resources/traveling-suitcases/day-of-the-dead/">Dia de los muertos.</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+            <section class="event" id="gator nights">
+                <img src="assets/fair.jpg" alt="ferris wheel" width="350" height="400">
+                <h3><a href="https://studentengagement.ufl.edu/join-us/gatornights/">Gator Nights.</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+            <section class="event" id="adelante">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7Xbmuy0qOM6ubrgnQhxd5tG2KMEkgFiGlQ&s" alt="adelante logo" width="350" height="400">
+                <h3><a href="https://www.instagram.com/ufadelante/?hl=en">Adelante.</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+        </div>
+    </section>
+
+    <section id="news-story">
+        <h2>News</h2>
+        <img src="assets/hurricaneyikes.jpg" alt="hurricane">
+        <div class="news-container">
+            <section class="news" id="hurricane party">
+                <h3><a href="https://www.fox35orlando.com/news/potential-tropical-system-could-develop-near-southeast-u-s-coast-nhc">First hurricane party of the season.</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+            <section class="news" id="president elect rejected">
+                <h3><a href="https://www.insidehighered.com/news/governance/executive-leadership/2025/06/03/florida-board-rejects-ono-uf-job">UF President Elect Rejected, What's Next for Diversity Orgs at UF?</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+            <section class="news" id="ai education fair">
+                <h3><a href="https://news.ufl.edu/2025/06/ai-in-education-fair/">UF Hosts AI in Education Fair Showcasing the Future of Learning</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+            <section class="news" id="environmental dna floating">
+                <h3><a href="https://news.ufl.edu/2025/06/air-environmental-dna/">Environmental DNA floating in the air tracks wildlife, viruses — even drugs</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam veritatis sequi nam sunt neque culpa incidunt corporis eveniet. Quae harum voluptates sint tenetur nisi. Esse eligendi atque perspiciatis ullam at?</p>
+            </section>
+        </div>
+    </section>
 </body>
 </html>
